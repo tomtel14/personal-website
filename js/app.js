@@ -7,6 +7,7 @@ window.addEventListener('load', (e) => {
 const navToggle = document.querySelector('.nav-toggle');
 const linksContainer = document.querySelector('.links-container');
 const links = document.querySelector('.links');
+const menuClickBtn = document.getElementById('menu-click-btn');
 
 navToggle.addEventListener('click', function () {
   const containerHeight = linksContainer.getBoundingClientRect().height;
@@ -16,6 +17,7 @@ navToggle.addEventListener('click', function () {
   } else {
     linksContainer.style.height = 0;
   }
+  menuClickBtn.classList.toggle("fa-times");
 });
 
 // Set-up: when we scroll past height of nav bar, then it becomes fixed at the top (wide screens).
