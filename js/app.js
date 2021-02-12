@@ -63,6 +63,8 @@ scrollLinks.forEach(function (link) {
     });
 
     linksContainer.style.height = 0;
+
+    menuClickBtn.classList.remove('fa-times');
   });
 });
 

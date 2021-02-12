@@ -101,16 +101,18 @@ p {
   }
 }
 
-.bg-grey {
-  background-color: var(--grey);
-}
-
 .title {
   text-align: center;
 }
 
 .link-underline {
   text-decoration: underline;
+}
+
+@media (max-width: 799px) {
+  a:hover {
+    color: initial;
+  }
 }
 
 
@@ -218,7 +220,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 2.5vh;
+  padding: 0px 2.5vh;
   height: 100%;
 }
 
@@ -239,10 +241,8 @@ nav {
   font-size: 2rem;
   padding: 6px 0;
   color: darkgray;
-}
-
-.fa-times {
-  width: 28px;
+  width: 42px;
+  height: 42px;
   text-align: center;
 }
 
@@ -390,8 +390,9 @@ nav {
 }
 
 .social-icon {
-  font-size: 1.8rem;
-  margin: 0 1.25rem;
+  font-size: 2.3rem;
+  margin: 0 0.8rem;
+  padding: 2px 15px;
 }
 
 
@@ -410,6 +411,10 @@ nav {
 .title h2 {
   text-align: center;
   padding-top: 1rem;
+}
+
+.bg-grey {
+  background-color: var(--grey);
 }
 
 @media (min-width: 800px) {
@@ -576,18 +581,18 @@ nav {
 
 .project-icon {
   position: absolute;
-  font-size: 1.75rem;
+  font-size: 1.9rem;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
-  width: 3rem;
-  height: 3rem;
+  width: 3.8rem;
+  height: 3.8rem;
   display: grid;
   place-items: center;
   background: var(--gold);
   border-radius: 50%;
   color: rgba(0, 0, 0, 0.3);
-  border: 0.275rem solid var(--darkgrey);
+  border: 0.37rem solid var(--darkgrey);
   transition: all 0.2s linear;
 }
 
@@ -603,7 +608,7 @@ nav {
 }
 
 .project-details h4 {
-  margin-top: 0.2rem;
+  margin-top: 0.4rem;
   margin-bottom: 1.2rem;
 }
 
@@ -626,7 +631,7 @@ nav {
 
 .project-footer a {
   justify-self: end;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: rgba(0, 0, 0, 0.6);
   margin-right: 0.7rem;
   transition: all 0.2s linear;
@@ -656,6 +661,6 @@ footer {
 footer p {
   font-size: 0.8rem;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 8px;
 }
 
