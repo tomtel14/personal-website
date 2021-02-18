@@ -209,6 +209,11 @@ nav {
   .links li:last-child a {
     padding-bottom: 35px;
   }
+  header {
+    background-color: #75b2b8;
+    background-image: url("https://www.transparenttextures.com/patterns/grunge-wall.png");
+    background-attachment: scroll;
+  }
 }
 
 .show-link {
