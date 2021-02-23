@@ -254,7 +254,6 @@ nav {
 .links-container {
   height: 0;
   overflow: hidden;
-  transition: all 0.3s linear;
   background-color: #fff;
   position: relative;
   z-index: 1000;
@@ -439,6 +438,14 @@ nav {
 
 .about-info {
   text-align: left;
+}
+
+.about-info a {
+  text-decoration: underline;
+}
+
+.about-info a:hover {
+  color: rgb(114, 114, 114);
 }
 
 .desktop-image {
