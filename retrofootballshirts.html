@@ -76,19 +76,19 @@
         </div>
 
         <div class="cart" id="cart">
-          <!--
-                    <div class="cart-item d-flex justify-content-between my-3">
-                        <img src="img-cart/1acmilan.jpg" class="img-fluid rounded-circle" id="item-img" alt="">
-                        <div class="item-text">
-                            <p id="cart-item-title" class="font-weight-bold mb-0">Cart item</p>
-                            <span>£</span>
-                            <span id="cart-item-price" class="cart-item-price mb-0">59.99</span>
-                        </div>
-                        <a href="#" id="cart-item-remove" class="cart-item-remove align-self-center">
-                            <i class="fas fa-trash"></i>
-                        </a>
-                    </div>
-                    -->
+
+          <!-- <div class="cart-item d-flex justify-content-between my-3">
+              <img src="img-cart/1acmilan.jpg" class="img-fluid rounded-circle" id="item-img" alt="">
+              <div class="item-text">
+                  <p id="cart-item-title" class="font-weight-bold mb-0">Cart item</p>
+                  <span>£</span>
+                  <span id="cart-item-price" class="cart-item-price mb-0">59.99</span>
+              </div>
+              <a href="#" id="cart-item-remove" class="cart-item-remove align-self-center">
+                  <i class="fas fa-trash"></i>
+              </a>
+          </div> -->
+
 
 
           <div class="cart-total-container d-flex justify-content-around mt-5">
@@ -174,224 +174,24 @@
       </div>
 
       <div class="row store-items" id="store-items">
-        <!--
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1acmilan.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i onclick="iconClickHandler()" class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> AC Milan Shirt</h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">59.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1arsenal.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Arsenal Shirt/h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">49.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1fiorentina.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Fiorentina Shirt</h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">34.99</strong></h5>
-                            </div>
-                        </div>
+        <!-- <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+            <div class="card single-item">
+                <div class="img-container">
+                    <img src="img/1acmilan.jpg" class="card-img-top store-img" alt="">
+                    <span class="store-item-icon">
+                        <i onclick="iconClickHandler()" class="fas fa-shopping-cart"></i>
+                    </span>
+                </div>
+                <div class="card-body">
+                    <div class="card-text d-flex justify-content-between">
+                        <h5 id="store-item-name"> AC Milan Shirt</h5>
+                        <h5 class="store-item-value">£ <strong id="store-item-price"
+                                class="font-weight-bold">59.99</strong></h5>
                     </div>
                 </div>
-
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1blackburn.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Blackburn Shirt/h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">44.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1valencia.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Valencia Shirt</h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">29.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1sampdoria.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Sampdoria Shirt</h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">49.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1bayern.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Bayern Munich Shirt</h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">39.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1werder.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Werder Bremen Shirt</h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">25.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1astonvilla.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Aston Villa Shirt</h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">27.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1intermilan.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Inter Milan Shirt</h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">48.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1barcelona.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Barcelona Shirt</h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">55.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
-                    <div class="card single-item">
-                        <div class="img-container">
-                            <img src="img/1atletico.jpg" class="card-img-top store-img" alt="">
-                            <span class="store-item-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex justify-content-between">
-                                <h5 id="store-item-name"> Atletico Madrid</h5>
-                                <h5 class="store-item-value">£ <strong id="store-item-price"
-                                        class="font-weight-bold">29.99</strong></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                -->
-
+            </div>
+        </div> -->
 
       </div>
 
@@ -450,58 +250,21 @@
       </div>
       <div class="row" id="special-offers">
 
-        <!--
-                <div class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-center">
-                    <h3 class="py-3">Eric Cantona Shirt</h3>
-                    <div class="text-muted reduced-spacing">
-                        <p class="my-2">1992-94 Manchester United Third Shirt</p>
-                        <p class="my-2">Condition: Excellent</p>
-                        <p class="my-2">Size: Medium</p>
-                        <p class="mb-3">Was <span class="old-price">$45.99</span> Now <span class="new-price">£35.99</span</p>
-                        <div class="rel-img-container">
-                            <img src="img/1cantonaback.jpg" class="img-fluid shirt-img" alt="">
-                            <img src="img/1cantona.jpg" class="img-fluid shirt-img-behind" alt="">
-                        </div>
-                        <p class="flip-over mt-2"><i class="fas fa-hand-pointer mr-2"></i>Click image to see reverse</p>
-                        <button type="button" class="btn btn-order-green mb-3">Order Now</button>
-
-                    </div>
+        <!-- <div class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-center">
+            <h3 class="py-3">Eric Cantona Shirt</h3>
+            <div class="text-muted reduced-spacing">
+                <p class="my-2">1992-94 Manchester United Third Shirt</p>
+                <p class="my-2">Condition: Excellent</p>
+                <p class="my-2">Size: Medium</p>
+                <p class="mb-3">Was <span class="old-price">$45.99</span> Now <span class="new-price">£35.99</span</p>
+                <div class="rel-img-container">
+                    <img src="img/1cantonaback.jpg" class="img-fluid shirt-img" alt="">
+                    <img src="img/1cantona.jpg" class="img-fluid shirt-img-behind" alt="">
                 </div>
-
-                <div class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-center">
-                    <h3 class="py-3">Paul Gascoigne Shirt</h3>
-                    <div class="text-muted reduced-spacing">
-                        <p class="my-2">1992-94 1997-99 Rangers Home Shirt</p>
-                        <p class="my-2">Condition: Very good</p>
-                        <p class="my-2">Size: Large</p>
-                        <p class="mb-3">Was <span class="old-price">$36.99</span> Now <span class="new-price">£28.99</span</p>
-                        <div class="rel-img-container">
-                            <img src="img/1gazzaback.jpg" class="img-fluid shirt-img" alt="">
-                            <img src="img/1gazza.jpg" class="img-fluid shirt-img-behind" alt="">
-                        </div>
-                        <p class="flip-over mt-2"><i class="fas fa-hand-pointer mr-2"></i>Click image to see reverse</p>
-                        <button type="button" class="btn btn-order-green mb-3">Order Now</button>
-
-                    </div>
-                </div>
-
-                <div class="col-11 mx-auto col-md-6 col-lg-4 my-4 text-center">
-                    <h3 class="py-3">Alessandro Del Piero Shirt</h3>
-                    <div class="text-muted reduced-spacing">
-                        <p class="my-2">2002-03 Juventus Home Shirt</p>
-                        <p class="my-2">Condition: Excellent</p>
-                        <p class="my-2">Size: Large</p>
-                        <p class="mb-3">Was <span class="old-price">$39.99</span> Now <span class="new-price">£31.99</span</p>
-                        <div class="rel-img-container">
-                            <img src="img/1delpieroback.jpg" class="img-fluid shirt-img" alt="">
-                            <img src="img/1delpiero.jpg" class="img-fluid shirt-img-behind" alt="">
-                        </div>
-                        <p class="flip-over mt-2"><i class="fas fa-hand-pointer mr-2"></i>Click image to see reverse</p>
-                        <button type="button" class="btn btn-order-green mb-3">Order Now</button>
-
-                    </div>
-                </div>
-                -->
+                <p class="flip-over mt-2"><i class="fas fa-hand-pointer mr-2"></i>Click image to see reverse</p>
+                <button type="button" class="btn btn-order-green mb-3">Order Now</button>
+            </div>
+        </div> -->
 
       </div>
     </div>
