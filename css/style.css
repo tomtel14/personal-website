@@ -653,6 +653,13 @@ nav {
   .project-footer a {
     font-size: 0.95rem;
   }
+  .project-container img {
+    filter: brightness(75%);
+    transition: all 0.2s linear;
+  }
+  .project-container img:hover {
+    filter: brightness(100%);
+  }
 }
 
 .project-footer a:hover {
