@@ -34,14 +34,6 @@ const projects = [
   },
   {
     id: 5,
-    url: "http://www.tomcagnoni.co.uk",
-    imgSrc: "img/Portfolio/project-5.png",
-    title: "Tom Cagnoni",
-    desc: "Another site built using function components in React JS for a client who wanted to showcase his musical work and services online. Used React hooks to achieve the responsive design.",
-    gh: "https://github.com/tomtel14/tom-cagnoni-website"
-  },
-  {
-    id: 6,
     url: "galleryapp.html",
     imgSrc: "img/Portfolio/project-2.png",
     title: "Holiday Pics Gallery App",
@@ -49,7 +41,23 @@ const projects = [
     gh: "https://github.com/tomtel14/gallery-app"
   },
   {
+    id: 6,
+    url: "http://www.tomcagnoni.co.uk",
+    imgSrc: "img/Portfolio/project-5.png",
+    title: "Tom Cagnoni",
+    desc: "Another site built using function components in React JS for a client who wanted to showcase his musical work and services online. Used React hooks to achieve the responsive design.",
+    gh: "https://github.com/tomtel14/tom-cagnoni-website"
+  },
+  {
     id: 7,
+    url: "http://www.genial.co.uk",
+    imgSrc: "img/Portfolio/project-6.png",
+    title: "Genial",
+    desc: "Completely re-designed, developed and deployed this responsive website using React JS for my parents company, Genial, who develop websites for local businesses.",
+    gh: "https://github.com/tomtel14/genial-website"
+  },
+  {
+    id: 8,
     url: "index.html",
     imgSrc: "img/Portfolio/project-3.png",
     title: "Personal Portfolio",
