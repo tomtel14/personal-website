@@ -1,49 +1,50 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Holiday Pics Gallery App</title>
-    <link rel="shortcut icon" type="image/jpg" href="img/Portfolio/favicon.jpg">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/galleryapp.css">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51114978659_d2113fb88e_b.jpg">
+  <title>Holiday Pics Gallery App</title>
+  <link rel="shortcut icon" type="image/jpg" href="img/Portfolio/favicon.jpg">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/galleryapp.css">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Holiday Pics</h1>
-    </header>
+  <header>
+    <h1>Holiday Pics</h1>
+  </header>
 
-    <main>
-        <section class="main-container">
-            <div class="form-container">
-                <label for="country">Take me to:</label>
-                <select name="country" id="dropdown">
-                    <option disabled selected value>Pick a country</option>
-                    <option value="indonesia">Indonesia</option>
-                    <option value="spain">Spain</option>
-                    <option value="switzerland">Switzerland</option>
-                    <option value="thailand">Thailand</option>
-                    <option value="usa">U.S.A</option>
-                    <option value="vietnam">Vietnam</option>
-                </select>
-                <p class="question">Can't decide?</p>
-                <button type="button" id="random-button">Scroll through random pics!</button>
-            </div>
-            <div class="image-gallery">
+  <main>
+    <section class="main-container">
+      <div class="form-container">
+        <label for="country">Take me to:</label>
+        <select name="country" id="dropdown">
+          <option disabled selected value>Pick a country</option>
+          <option value="indonesia">Indonesia</option>
+          <option value="spain">Spain</option>
+          <option value="switzerland">Switzerland</option>
+          <option value="thailand">Thailand</option>
+          <option value="usa">U.S.A</option>
+          <option value="vietnam">Vietnam</option>
+        </select>
+        <p class="question">Can't decide?</p>
+        <button type="button" id="random-button">Scroll through random pics!</button>
+      </div>
+      <div class="image-gallery">
 
-                <div class="slide">
-                    <img id="gallery-img" src="img/GalleryApp/default.jpg" alt="">
-                </div>
-                <i class="fas fa-arrow-left arrow" id="left-button"></i>
-                <i class="fas fa-arrow-right arrow" id="right-button"></i>
+        <div class="slide">
+          <img id="gallery-img" src="img/GalleryApp/default.jpg" alt="">
+        </div>
+        <i class="fas fa-arrow-left arrow" id="left-button"></i>
+        <i class="fas fa-arrow-right arrow" id="right-button"></i>
 
-            </div>
-            <p id="caption">Let's fly away!</p>
-        </section>
-    </main>
-    <script src="js/galleryapp.js"></script>
+      </div>
+      <p id="caption">Let's fly away!</p>
+    </section>
+  </main>
+  <script src="js/galleryapp.js"></script>
 </body>
 
 </html>
