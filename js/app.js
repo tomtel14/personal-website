@@ -72,7 +72,7 @@ const displayProjects = () => {
     return `
       <article class="single-project">
         <div class="project-container">
-          <a href=${project.url} target="_blank"><img src=${project.imgSrc}
+          <a href=${project.url} target="_blank"><img src=${project.imgSrc} class="project-img"
               alt="screenshot of ${project.title} project"></a>
           <a href=${project.url} target="_blank" class="project-icon">
             <i class="fas fa-home"></i>
@@ -162,21 +162,22 @@ scrollLinks.forEach(function (link) {
 });
 
 // hovering over project images highlights icon
-const images = document.querySelectorAll('.project-container img');
+const listener = document.querySelector('.projects-page-center');
 
-images.forEach(function (image) {
-
-  image.addEventListener('mouseover', function (e) {
-    const icon = e.target.parentNode.parentNode.children[1];
+listener.addEventListener('mouseover', (e) => {
+  if (e.target.className === 'project-img') {
+    let icon = e.target.parentNode.nextElementSibling;
     icon.style.color = 'black';
-
-
-  });
-  image.addEventListener('mouseout', function (e) {
-    const icon = e.target.parentNode.parentNode.children[1];
-    icon.style.color = 'rgba(0, 0, 0, 0.3)';
-  })
+  }
 })
+
+listener.addEventListener('mouseout', (e) => {
+  if (e.target.className === 'project-img') {
+    let icon = e.target.parentNode.nextElementSibling;
+    icon.style.color = 'rgba(0, 0, 0, 0.3)';
+  }
+})
+
 
 // set year for footer
 const date = document.querySelector('#date');

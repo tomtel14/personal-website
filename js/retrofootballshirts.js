@@ -158,7 +158,7 @@ function displayProductItems(productItems) {
             <div class="card single-item">
                 <div class="img-container">
                     <img src="${item.img}" class="card-img-top store-img" alt="${item.title}">
-                    <span class="store-item-icon">
+                    <span class="store-item-icon" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <i class="fas fa-shopping-cart"></i>
                     </span>
                 </div>
