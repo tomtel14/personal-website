@@ -358,3 +358,11 @@ searchBar.addEventListener('keyup', function (e) {
     }
   });
 });
+
+
+// checkout button alert
+const checkoutBtn = document.getElementById('checkout');
+
+checkoutBtn.addEventListener('click', () => {
+  alert('Checkout page not yet available');
+})
