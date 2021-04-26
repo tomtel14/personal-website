@@ -118,11 +118,7 @@ p {
 /* ------------------- HEADER incl. NAVBAR & BANNER ------------------- */
 
 header {
-  background: url('../img/Portfolio/background.jpg');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: url('../img/Portfolio/background.jpg') no-repeat fixed center/cover ;
   border-bottom: 1px solid var(--white);
 }
 
