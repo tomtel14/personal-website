@@ -19,7 +19,6 @@
 body {
   font-family: 'Monda', sans-serif;
   background: var(--white);
-  color: var(--black);
 }
 
 #hide-all {
@@ -28,7 +27,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
+  background: #fff;
   z-index: 999;
   display: none;
 }
@@ -661,9 +660,6 @@ nav {
     filter: brightness(75%);
     transition: all 0.2s linear;
   }
-  /* .project-container img:hover {
-    filter: brightness(100%);
-  } */
 }
 
 .project-footer a:hover {
