@@ -608,6 +608,10 @@ nav {
   transition: all 0.2s linear;
 }
 
+.project-icon i {
+  pointer-events: none;
+} 
+
 .project-icon:hover {
   color: var(--black)!important; 
 }
@@ -657,9 +661,9 @@ nav {
     filter: brightness(75%);
     transition: all 0.2s linear;
   }
-  .project-container img:hover {
+  /* .project-container img:hover {
     filter: brightness(100%);
-  }
+  } */
 }
 
 .project-footer a:hover {

@@ -169,20 +169,28 @@ scrollLinks.forEach(function (link) {
   });
 });
 
-// hovering over project images highlights icon
+// hovering over project images highlights icon & hovering over icons highlights images
 const listener = document.querySelector('.projects-page-center');
 
 listener.addEventListener('mouseover', (e) => {
   if (e.target.className === 'project-img') {
+    e.target.style.filter = 'brightness(100%)';
     let icon = e.target.parentNode.nextElementSibling;
     icon.style.color = 'black';
+  } else if (e.target.className === 'project-icon') {
+    let image = e.target.previousElementSibling.children[0];
+    image.style.filter = 'brightness(100%)';
   }
 })
 
 listener.addEventListener('mouseout', (e) => {
   if (e.target.className === 'project-img') {
+    e.target.style.filter = 'brightness(75%)';
     let icon = e.target.parentNode.nextElementSibling;
     icon.style.color = 'rgba(0, 0, 0, 0.3)';
+  } else if (e.target.className === 'project-icon') {
+    let image = e.target.previousElementSibling.children[0];
+    image.style.filter = 'brightness(75%)';
   }
 })
 
