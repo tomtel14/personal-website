@@ -131,7 +131,6 @@ nav {
 #logo-name {
   font-size: 1.2rem;
   margin-bottom: 0;
-  letter-spacing: 0.15rem;
   line-height: 0;
   letter-spacing: 0.1rem;
   cursor: default;
@@ -506,7 +505,7 @@ nav {
 /* ------------------- TECH ------------------- */
 
 .tech-list-container {
-  margin-top:1.8rem;
+  margin-top: 1.8rem;
 }
 
 .tech-list-item {
