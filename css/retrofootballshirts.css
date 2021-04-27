@@ -105,7 +105,7 @@ body {
 }
 
 .cart-info:hover {
-  background-color: var(--mainGreen);
+  background: var(--mainGreen);
   border-color: var(--mainGreen);
   color: var(--mainWhite);
 }
@@ -117,11 +117,7 @@ body {
 .max-height {
   /* set min-height to 100vh - height of navbar (get this from inspecting page) */
   min-height: calc(100vh - 76px);
-  background: url('../img/RetroFootballShirts/stadium.jpeg');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: url('../img/RetroFootballShirts/stadium.jpeg') center/cover no-repeat fixed;
   position: relative;
   opacity: 0.9;
 }

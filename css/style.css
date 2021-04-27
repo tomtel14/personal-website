@@ -410,7 +410,7 @@ nav {
 }
 
 .bg-grey {
-  background-color: var(--grey);
+  background: var(--grey);
 }
 
 @media (min-width: 800px) {
@@ -516,7 +516,7 @@ nav {
   font-size: 1.1rem;
   letter-spacing: 0.08rem;
   padding: 0.3rem 0.95rem;
-  background-color: var(--darkgrey);
+  background: var(--darkgrey);
   border-bottom: 2px solid var(--gold);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -525,7 +525,7 @@ nav {
 .tech-list-item p {
   margin-bottom: 0;
   color: rgba(0, 0, 0, 0.7);
-  background-color: var(--white);
+  background: var(--white);
   padding: 0.5rem 0.95rem;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
