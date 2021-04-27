@@ -27,7 +27,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #fff;
+  background: var(--white);
   z-index: 999;
   display: none;
 }
@@ -188,7 +188,7 @@ nav {
     height: 2px;
     bottom: 5px;
     left: 0;
-    background-color: var(--gold);
+    background: var(--gold);
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
@@ -204,9 +204,7 @@ nav {
     padding-bottom: 35px;
   }
   header {
-    background-color: #75b2b8;
-    background-image: url("https://www.transparenttextures.com/patterns/grunge-wall.png");
-    background-attachment: scroll;
+    background: #75b2b8 url("https://www.transparenttextures.com/patterns/grunge-wall.png") scroll;
   }
 }
 
@@ -228,7 +226,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: var(--white);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   transition: box-shadow 0.5s linear;
   z-index: 100;
@@ -248,7 +246,7 @@ nav {
 .links-container {
   height: 0;
   overflow: hidden;
-  background-color: #fff;
+  background: var(--white);
   position: relative;
   z-index: 1000;
   padding: 0 2.5vh;
@@ -283,7 +281,7 @@ nav {
     width: 80vw;
   }
   .links-container {
-    background-color: transparent;
+    background: transparent;
   }
 }
 
@@ -322,7 +320,7 @@ nav {
 
 .underline {
   height: 4px;
-  background-color: var(--gold);
+  background: var(--gold);
   margin: 0 auto 3rem auto;
 }
 
