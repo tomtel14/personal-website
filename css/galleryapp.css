@@ -69,7 +69,7 @@ select {
 
 #random-button {
     padding: 4px 15px;
-    color: black;
+    color: #000;
     border: 2px solid rgb(168, 182, 226);
     background: #fff;
     border-radius: 5px;
@@ -81,7 +81,7 @@ select {
 
 #random-button:hover {
     background: rgb(168, 182, 226);
-    color: black;
+    color: #000;
 }
 
 @media (min-width: 670px) {
@@ -120,7 +120,7 @@ img {
 }
 
 .slide {
-    border: black 1px solid;
+    border: #000 1px solid;
     border-radius: 10px;
     width: 100%;
     height: auto;
@@ -152,17 +152,17 @@ img {
     color: royalblue;
     padding: 2%;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid #000;
     cursor: pointer;
     opacity: 1;
     visibility: visible;
     transition: opacity .7s linear,
-                background-color 0.3s,
+                background 0.3s,
                 color 0.3s;
 }
 
 .show-arrow:hover {
-    background-color: rgb(168, 182, 226);
+    background: rgb(168, 182, 226);
     color: #fff;
 }
 
